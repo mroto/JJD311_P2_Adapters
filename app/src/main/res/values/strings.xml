@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JJD311_P2_Adapters</string>
+    <string name="title_place_holder">Any title</string>
+    <string name="body_place_holder">Any body</string>
 </resources>
