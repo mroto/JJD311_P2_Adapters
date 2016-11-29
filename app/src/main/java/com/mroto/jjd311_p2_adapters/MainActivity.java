@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void fillArrayList() {
         Log.e(MainActivity.TAG, "fillArrayList");
         for (int i = 0; i < MainActivity.SIZE; i++) {
-            this.listItem.add(new Item("@mipmap/ic_launcher", "title_"+i, "body_"+i));
+            this.listItem.add(new Item("@mipmap/ic_launcher", "title_" + i, "body_" + i));
         }
     }
 
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         this.listView.setOnItemClickListener(this);
         this.listView.setOnItemLongClickListener(this);
 
+        //Simple Adapter:
         //this.fillArrayString();
         //this.arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arrayString);
         //this.listView.setAdapter(this.arrayAdapter);

@@ -31,10 +31,10 @@ public class MyListAdapter extends ArrayAdapter<Item> {
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.img_view_custom_row_layout);
 
-        TextView textViewTitle = (TextView) convertView.findViewById(R.id.text_view_title);
+        TextView textViewTitle = (TextView) convertView.findViewById(R.id.text_view_custom_title);
         textViewTitle.setText(this.itemList.get(position).getTitle());
 
-        TextView textViewBody = (TextView) convertView.findViewById(R.id.text_view_body);
+        TextView textViewBody = (TextView) convertView.findViewById(R.id.text_view_custom_body);
         textViewBody.setText(this.itemList.get(position).getBody());
 
         return convertView;
